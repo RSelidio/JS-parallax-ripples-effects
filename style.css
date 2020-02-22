@@ -1,0 +1,112 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(background.png) no-repeat ;
+    overflow-x: hidden;
+    background-size: cover;
+     /* position: absolute;  */
+}
+
+
+
+  .full-landing-image{
+    width: 100%;
+    height: 100vh;
+    background: url(background.png) no-repeat ;
+    background-size: cover;
+  
+} 
+
+.hero-image{
+    width: 100%;
+    background: url(3.png) no-repeat
+    50% 50%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+}
+.parallax-el{
+    background: url(testbg2.png) no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+    left: -13%;
+}
+.text{
+    background: url(VISION.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 56%;
+    left: -4%;
+}
+.clouds{
+    background: url(clouds.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.content{
+   /*  background: #bbc1c9;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Helventica;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000; */
+     width: 100%;
+    background: url(codebg.jpg) no-repeat
+    50% 50%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    
+}
+  .whitespace{
+    width: 100%;
+    height: 100vh;
+}  
+p{
+    line-height: 20px;
+    text-align: justify;
+    
+}
+.content img{
+    width: 100%;
+}
+.content .content-container{
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 100px;
+    
+}
+.text-container{
+    background: #000000;
+    font-size: 14px;
+    opacity: 0.9;
+    display: table;
+    margin: 0 auto;
+    color: whitesmoke;
+    
+}
+.explore-btn{
+    color: #6ab1f3 !important;
+    border: 1px solid #a38e8e !important;
+    width:100%
+    
+    
+}
+.img-container .row{
+    margin-left: 40px;
+    width: 120%;
+    
+}
+.img-small{
+    margin-top: 50px;
+}
